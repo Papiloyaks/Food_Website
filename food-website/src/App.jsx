@@ -5,6 +5,7 @@ import HomePage from './components/HomePage';
 import AboutUs from './pages/AboutUs';
 import Footer from './components/Footer';
 import Menu from './pages/Menu';
+import BookTable from './pages/BookTable';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/about" element={<AboutUs />} />
         <Route path="/menu" element={<Menu />} />
+        <Route path="/book-table" element={<BookTable />} />
       </Routes>
       <Footer/>
     </Router>

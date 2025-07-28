@@ -39,12 +39,12 @@ function Header() {
         </ul>
 
         {/* Button */}
-        <a
-          href="#"
+        <Link
+          to="book-table"
           className="mt-3 md:mt-0 border rounded-full px-4 py-1 hover:bg-green-100 hover:text-black transition"
         >
           Book A Table
-        </a>
+        </Link>
       </nav>
     </header>
     </>
