@@ -1,52 +1,53 @@
 import React from "react";
+import OrderApps from "./OrderApp";
 
 const menuItems = [
   {
     title: "Fried Eggs",
     price: "$9.99",
-    image: "/images/eggs.jpg",
+    image: "/images/boil.png",
     desc: "Made with eggs, lettuce, salt, oil and other ingredients.",
   },
   {
     title: "Hawaiian Pizza",
     price: "$15.99",
-    image: "/images/pizza.jpg",
+    image: "/images/pizza.png",
     desc: "Made with eggs, lettuce, salt, oil and other ingredients.",
   },
   {
     title: "Martinez Cocktail",
     price: "$7.25",
-    image: "/images/cocktail.jpg",
+    image: "/images/wine.png",
     desc: "Made with eggs, lettuce, salt, oil and other ingredients.",
   },
   {
     title: "Butterscotch Cake",
     price: "$20.99",
-    image: "/images/cake.jpg",
+    image: "/images/butter.png",
     desc: "Made with eggs, lettuce, salt, oil and other ingredients.",
   },
   {
     title: "Mint Lemonade",
     price: "$5.89",
-    image: "/images/lemonade.jpg",
+    image: "/images/green.png",
     desc: "Made with eggs, lettuce, salt, oil and other ingredients.",
   },
   {
     title: "Chocolate Icecream",
     price: "$18.05",
-    image: "/images/icecream.jpg",
+    image: "/images/chocolate.png",
     desc: "Made with eggs, lettuce, salt, oil and other ingredients.",
   },
   {
     title: "Cheese Burger",
     price: "$12.55",
-    image: "/images/burger.jpg",
+    image: "/images/cheese.png",
     desc: "Made with eggs, lettuce, salt, oil and other ingredients.",
   },
   {
     title: "Classic Waffles",
     price: "$12.99",
-    image: "/images/waffles.jpg",
+    image: "/images/waffles.png",
     desc: "Made with eggs, lettuce, salt, oil and other ingredients.",
   },
 ];
@@ -89,7 +90,7 @@ const Menu = () => {
             <img
               src={item.image}
               alt={item.title}
-              className="w-full h-40 object-cover"
+              className="w-full h-45 object-cover"
             />
             <div className="p-4">
               <h3 className="text-lg font-semibold text-red-600">{item.price}</h3>
@@ -99,6 +100,7 @@ const Menu = () => {
           </div>
         ))}
       </div>
+<OrderApps/>
     </section>
   );
 };
