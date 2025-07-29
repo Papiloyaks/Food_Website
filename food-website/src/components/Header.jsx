@@ -34,7 +34,7 @@ function Header() {
           <li><Link to="/" className="bg-green-100 text-black rounded-full px-4 py-1">Home</Link></li>
           <li><Link to="about" className="hover:text-gray-400">About</Link></li>
           <li><Link to="menu" className="hover:text-gray-400">Menu</Link></li>
-          <li><Link to="pages" className="hover:text-gray-400">Pages</Link></li>
+          <li><Link to="blog" className="hover:text-gray-400">Blog</Link></li>
           <li><Link to="contact" className="hover:text-gray-400">Contact</Link></li>
         </ul>
 
