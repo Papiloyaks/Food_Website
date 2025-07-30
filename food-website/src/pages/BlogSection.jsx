@@ -5,62 +5,62 @@ const blogPosts = [
   {
     title: "How to prepare a delicious gluten free sushi",
     date: "January 3, 2023",
-    image: "https://source.unsplash.com/300x200/?sushi",
+    image: "/images/making.png",
   },
   {
     title: "Exclusive baking lessons from the pastry king",
     date: "January 3, 2023",
-    image: "https://source.unsplash.com/300x200/?baking",
+    image: "/images/baking.png",
   },
   {
     title: "How to prepare the perfect fries in an air fryer",
     date: "January 3, 2023",
-    image: "https://source.unsplash.com/300x200/?fries",
+    image: "/images/frry.png",
   },
   {
     title: "How to prepare delicious chicken tenders",
     date: "January 3, 2023",
-    image: "https://source.unsplash.com/300x200/?chicken",
+    image: "/images/chicken.png",
   },
   {
     title: "5 great cooking gadgets you can buy to save time",
     date: "January 3, 2023",
-    image: "https://source.unsplash.com/300x200/?gadgets",
+    image: "/images/gadgets.png",
   },
   {
     title: "The secret tips & tricks to prepare a perfect burger",
     date: "January 3, 2023",
-    image: "https://source.unsplash.com/300x200/?burger",
+    image: "/images/burgerr.png",
   },
   {
     title: "7 delicious cheesecake recipes you can prepare",
     date: "January 3, 2023",
-    image: "https://source.unsplash.com/300x200/?cheesecake",
+    image: "/images/cheesecake.png",
   },
   {
     title: "5 great pizza restaurants you should visit this city",
     date: "January 3, 2023",
-    image: "https://source.unsplash.com/300x200/?pizza",
+    image: "/images/pizzaa.png",
   },
   {
     title: "How to prepare a delicious gluten free sushi",
     date: "January 3, 2023",
-    image: "https://source.unsplash.com/300x200/?wrap",
+    image: "/images/maker.png",
   },
   {
     title: "Top 20 simple and quick desserts for kids",
     date: "January 3, 2023",
-    image: "https://source.unsplash.com/300x200/?dessert",
+    image: "/images/desserts.png",
   },
   {
     title: "5 great cooking gadgets you can buy to save time",
     date: "January 3, 2023",
-    image: "https://source.unsplash.com/300x200/?kitchen",
+    image: "/images/gadt.png",
   },
   {
     title: "Top 20 simple and quick desserts for kids",
     date: "January 3, 2023",
-    image: "https://source.unsplash.com/300x200/?pastries",
+    image: "/images/dessert.png",
   },
 ];
 
@@ -84,7 +84,7 @@ const BlogSection = () => {
             <img
               src={post.image}
               alt={post.title}
-              className="w-full h-44 object-cover"
+              className="w-full h-45 object-cover"
             />
             <div className="p-4">
               <p className="text-xs text-gray-500">{post.date}</p>

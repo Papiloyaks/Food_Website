@@ -1,4 +1,5 @@
 import React from "react";
+import ReadMoreArticles from "./ReadMoreArticles";
 
 const sections = [
   {
@@ -11,7 +12,7 @@ const sections = [
       "Cooking: High heat is crucial. Whether you’re grilling or pan-searing, make sure your cooking surface is hot enough to form a nice crust on the patty, sealing in those delicious juices.",
       "Resting: Allow your cooked burgers to rest for a few minutes before serving. This lets the juices redistribute throughout the patty, ensuring a moist and flavorful bite.",
     ],
-    image: "https://source.unsplash.com/800x400/?noodles,soup",
+    image: "/images/dert.png",
   },
   {
     title: "What are the right ingredients to make it delicious?",
@@ -23,19 +24,15 @@ const sections = [
       "Cooking: High heat is crucial. A good sear locks in flavor.",
       "Resting: Let the patty rest before serving to lock in juices.",
     ],
-    image: "https://source.unsplash.com/800x400/?fries,salad",
+    image: "/images/dart.png",
   },
-  {
-    title: "What are the right ingredients to make it delicious?",
-    content: `Proin faucibus nec mauris a sodales. Sed elementum mi tincidunt, Sed eget viverra egestas nisl in consequat. Fusce sodales augue a accumsan. Cras sollicitudin, le ligula, porttitor eu, consequat vitae, eleifend ex, enim.`,
-    image: "https://source.unsplash.com/800x400/?burger,fries",
-  },
+
 ];
 
 const ArticlePage = () => {
   return (
     <div className="bg-white text-black">
-      <header className="text-center px-4 py-10 max-w-3xl mx-auto">
+      <header className="text-center px-4 py-10 max-w-3xl mx-auto mt-5">
         <h1 className="text-3xl sm:text-4xl font-bold mb-4 leading-tight">
           The secret tips & tricks to prepare a perfect burger & pizza for our
           customers
@@ -48,7 +45,7 @@ const ArticlePage = () => {
             <img
               src={section.image}
               alt={`Section ${index + 1}`}
-              className="w-full h-auto object-cover"
+              className="w-[900px] h-auto object-cover justify-center mx-auto mb-6 rounded-lg shadow-lg "
             />
           </div>
           <div className="px-4 sm:px-10 py-6 max-w-5xl mx-auto">
@@ -66,6 +63,7 @@ const ArticlePage = () => {
           </div>
         </div>
       ))}
+    <ReadMoreArticles />
     </div>
   );
 };
