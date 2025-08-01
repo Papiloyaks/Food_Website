@@ -3,22 +3,22 @@ import React from "react";
 const articles = [
   {
     title: "How to prepare a delicious gluten free sushi",
-    date: "January 3, 2023",
+    date: "January 3, 2025",
     image: "/images/making.png",
   },
   {
     title: "Exclusive baking lessons from the pastry king",
-    date: "January 3, 2023",
+    date: "January 3, 2025",
     image: "/images/baking.png",
   },
   {
     title: "How to prepare the perfect fries in an air fryer",
-    date: "January 3, 2023",
+    date: "January 3, 2025",
     image: "/images/frry.png",
   },
   {
     title: "How to prepare delicious chicken tenders",
-    date: "January 3, 2023",
+    date: "January 3, 2025",
     image: "/images/chicken.png",
   },
 ];

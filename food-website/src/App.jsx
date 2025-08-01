@@ -7,6 +7,7 @@ import Footer from './components/Footer';
 import Menu from './pages/Menu';
 import BookTable from './pages/BookTable';
 import BlogSection from './pages/BlogSection';
+import ContactForm from './pages/ContactForm';
 
 function App() {
   return (
@@ -19,7 +20,8 @@ function App() {
         <Route path="/menu" element={<Menu />} />
         <Route path="/book-table" element={<BookTable />} />
         <Route path="/blog" element={<BlogSection />} />
-        {/* <Route path="/contact" element={<ContactPage />} /> */}
+        <Route path="/contact" element={<ContactForm />} />
+        {/* <Route path="/read-more" element={<ReadMoreArticles />} /> */}
       </Routes>
       <Footer/>
     </Router>
