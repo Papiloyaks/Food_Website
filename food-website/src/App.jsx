@@ -21,7 +21,9 @@ function App() {
         <Route path="/book-table" element={<BookTable />} />
         <Route path="/blog" element={<BlogSection />} />
         <Route path="/contact" element={<ContactForm />} />
-        {/* <Route path="/read-more" element={<ReadMoreArticles />} /> */}
+        <Route path="*" element={<HomePage />} />
+        {/* <Route path="/404" element={<NotFound />} /> */}
+
       </Routes>
       <Footer/>
     </Router>

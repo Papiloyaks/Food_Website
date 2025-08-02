@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function HeroSection() {
   return (
@@ -32,9 +33,9 @@ function HeroSection() {
         <p className="text-gray-700 mb-6">
           At place, we believe that dining is not just about food, but also about the overall experience. Our staff, renowned for their warmth and dedication, strives to make every visit an unforgettable event.
         </p>
-        <button className="mt-4 px-6 py-2 border border-gray-800 text-gray-800 rounded-full hover:bg-gray-800 hover:text-white transition duration-300">
+        <Link to="/about" className="mt-4 px-6 py-2 border border-gray-800 text-gray-800 rounded-full hover:bg-gray-800 hover:text-white transition duration-300">
           More About Us
-        </button>
+        </Link>
       </div>
     </div>
     </>

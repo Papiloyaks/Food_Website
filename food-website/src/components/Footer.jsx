@@ -3,6 +3,7 @@ import { FaXTwitter } from "react-icons/fa6";
 import { FaFacebook } from "react-icons/fa";
 import { GrInstagram } from "react-icons/gr";
 import { FaGithubSquare } from "react-icons/fa";
+import { Link } from 'react-router-dom';
 
 
     
@@ -36,13 +37,13 @@ const Footer = () => {
         <div>
           <h3 className="font-semibold mb-3">Pages</h3>
           <ul className="text-sm space-y-2">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Menu</a></li>
-            <li><a href="#">Pricing</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><a href="#">Delivery</a></li>
+            <li><Link to="/">Home</Link></li>
+            <li><Link to="/about">About</Link></li>
+            <li><Link to="/menu">Menu</Link></li>
+            <li><Link to="/pricing">Pricing</Link></li>
+            <li><Link to="/blog">Blog</Link></li>
+            <li><Link to="/contact">Contact</Link></li>
+            <li><Link to="/delivery">Delivery</Link></li>
           </ul>
         </div>
 

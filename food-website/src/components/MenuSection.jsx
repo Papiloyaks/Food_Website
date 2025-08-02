@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 
 
@@ -44,12 +45,14 @@ function MenuSection() {
               {item.title}
             </h3>
             <p className="text-gray-600 text-sm mb-4">{item.description}</p>
-            <a
-              href="#"
-              className="text-rose-600 font-semibold hover:underline text-sm"
-            >
-              Explore Menu
-            </a>
+            <Link to="/menu">
+              <a
+                href="#"
+                className="text-rose-600 font-semibold hover:underline text-sm"
+              >
+                Explore Menu
+              </a>
+            </Link>
           </div>
         ))}
       </div>

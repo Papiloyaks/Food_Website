@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 
 const blogPosts = [
@@ -42,9 +43,9 @@ function BlogSection() {
         <section className="py-12 px-4 max-w-6xl mx-auto">
       <div className="flex justify-between items-center mb-8">
         <h2 className="text-3xl font-bold">Our Blog & Articles</h2>
-        <button className="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-full text-sm">
+        <Link to="/blog" className="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-full text-sm">
           Read All Articles
-        </button>
+        </Link>
       </div>
 
       <div className="grid gap-6 md:grid-cols-3 lg:grid-cols-4 h-42">

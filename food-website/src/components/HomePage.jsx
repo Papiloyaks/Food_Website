@@ -5,6 +5,7 @@ import ServicesSection from './ServicesSection'
 import DeliverySection from './DeliverySection'
 import Testimonial from './Testimonial'
 import BlogSection from './BlogSection'
+import { Link } from 'react-router-dom'
 
 function HomePage() {
   return (
@@ -22,12 +23,12 @@ function HomePage() {
           Discover delectable cuisine and unforgettable moments in our welcoming, culinary haven.
         </p>
         <div className="mt-8 flex justify-center gap-4 flex-wrap">
-          <button className="bg-rose-600 text-white px-6 py-3 rounded-full hover:bg-rose-700 transition">
+          <Link to="/book-table"><button className="bg-rose-600 text-white px-6 py-3 rounded-full hover:bg-rose-700 transition">
             Book A Table
-          </button>
-          <button className="border border-gray-600 text-gray-800 px-6 py-3 rounded-full hover:bg-gray-100 transition">
+          </button></Link>
+          <Link to="/menu"><button className="border border-gray-600 text-gray-800 px-6 py-3 rounded-full hover:bg-gray-100 transition">
             Explore Menu
-          </button>
+          </button></Link>
         </div>
       </div>
     </div>
